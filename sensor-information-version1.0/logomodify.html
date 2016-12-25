@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>易泽传感-认证信息修改</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <!--[if IE 7]>
+        <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+        <![endif]-->
+        <!--[if lt IE 9]>
+          <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body class="login-container">
+    <font color="red"><s:actionerror/></font>
+    <form action="logo_save.action"  id="logo_save" name="" method="post" enctype="multipart/form-data" class="form-horizontal">
+       <div class="login-con logo-update">
+               <h3>认证信息修改</h3>
+               <div class="form-group">
+                   <label for="companyname" class="col-md-4  col-xs-4 col-sm-4  control-label">公司名称</label>
+                   <div class="col-md-8 col-xs-8 col-sm-8">
+                     <input type="text" name="companyname" class="form-control" id="companyname" placeholder="公司名称" value="南京易择信息技术有限公司">
+                   </div>
+               </div>
+               <div class="form-group">
+                   <label for="companyurl" class="col-md-4  col-xs-4 col-sm-4  control-label">公司网址</label>
+                   <div class="col-md-8 col-xs-8 col-sm-8">
+                     <input type="text" name="companyurl" class="form-control" id="companyurl" placeholder="公司网址" value="http://sensorinfo.org/">
+                   </div>
+               </div>
+               <div class="form-group">
+                   <label for="comproduce" class="col-md-4  col-xs-4 col-sm-4  control-label">产品简介</label>
+                   <div class="col-md-8 col-xs-8 col-sm-8">
+                     <input type="text" name="comproduce" class="form-control" id="comproduce" placeholder="产品简介" value="这里是产品简介">
+                   </div>
+               </div>
+               <div class="form-group">
+                   <label for="organizationcode" class="col-md-4  col-xs-4 col-sm-4  control-label">统一社会信用代码</label>
+                   <div class="col-md-8 col-xs-8 col-sm-8">
+                     <input type="text" name="organizationcode" class="form-control" id="organizationcode" placeholder="组织机构代码" value=":7765XXXX-2">
+                   </div>
+               </div>
+               <div class="form-group">
+                   <label class="col-md-4  col-xs-4 col-sm-4  control-label">公司营业执照</label>
+                   <div class="col-md-4  col-xs-4 col-sm-4 ">
+                     <div class="upload-file">
+                        <input type="file" name="license" accept="image/*" class="upload-img"> 
+                        <span class="btn btn-info">上传</span>
+                     </div>
+                     <div class="preview-area"></div>
+                   </div>
+                   <div class="col-md-4">
+                     <a href="javascript:void(0)" class="line-height" data-toggle="modal" data-target=".modal-img">示例展示</a>
+                   </div>
+               </div>
+               <div class="form-group">
+                   <label class="col-md-12 col-xs-12 col-sm-12"><p class="tips">注：公司营业执照上的公司名称需与上述填写公司名称一致。</p></label>                
+               </div>
+               <div class="form-group">
+                   <label class="col-md-4  col-xs-4 col-sm-4  control-label">盖章协议</label>
+                   <div class="col-md-4  col-xs-4 col-sm-4">
+                     <div class="upload-file">
+                        <input type="file" name="protocol">
+                        <span class="btn btn-info">上传</span>
+                     </div>
+                   </div>
+                   <div class="col-md-4  col-xs-4 col-sm-4 ">
+                     <a href="#" class="line-height">协议模板下载</a>
+                   </div>
+               </div>
+               <div class="form-group">
+                   <label class="col-md-12 col-xs-12 col-sm-12"><p class="tips">注：请下载模板文件，按要求填写完成盖章，然后拍照上传。</p</label>
+                </div>
+               <div class="form-group">
+                   <label class="col-md-4  col-xs-4 col-sm-4  control-label">展示LOGO</label>
+                   <div class="col-md-4 col-xs-4 col-sm-4">
+                     <div class="upload-file">
+                        <input type="file" name="showlogo"  accept="image/*" class="upload-img">
+                        <span class="btn btn-info">上传</span>
+                     </div>
+                     <div class="preview-area"></div>
+                   </div>
+               </div>   
+               <div class="form-group">
+                   <label class="col-md-12 col-xs-12 col-sm-12">
+                    <p class="tips">注：LOGO展示尺寸为150×50像素，若不符合该比例LOGO在发布时将进行调整，图片格式JPG或PNG。
+                    </p></label>                  
+               </div> 
+               <div class="form-group">
+                   <label for="locationselect" class="col-md-4  col-xs-4 col-sm-4 control-label">LOGO位置选择</label>
+                   <div class="col-md-8 col-xs-8 col-sm-8">
+                     <input type="text" name="locationselect" class="form-control" id="locationselect" placeholder="LOGO位置选择" value="力传感器">
+                   </div>
+               </div>    
+               <div class="form-group">
+                   <label class="col-md-12 col-xs-12 col-sm-12"><p class="tips">注：易择传感资讯网将为您免费发布两个LOGO展示位置，请您输入想将LOGO发布的传感器类别（传感器类别请参看网址首页的分类）。</p>
+                   </label>                
+               </div> 
+               <div class="form-group">
+                   <div class="col-md-offset-3 col-md-6 col-xs-offset-3 col-xs-6 col-sm-offset-3 col-sm-6">
+                       <button type="submit" class="btn btn-info btn-block">提交</button>
+                   </div>
+               </div>
+           </div>
+   </form>
+   <div class="fixed-bar"> 
+            <a href="#" class="icon-chat">微信
+                <div class="chat-tips">
+                    <i></i>
+                    <img src="images/qcode_wechat.jpg" alt="微信订阅号">
+                    <p>扫一扫，关注微信公众号</p>
+                </div>
+            </a> 
+            <a href="http://weibo.com/sensorinfo" class="icon-blog" target="_blank">微博
+                <div class="chat-tips">
+                    <i></i>
+                    <img src="images/qcode_wechat.jpg" alt="微博">
+                    <p>扫一扫，关注微博有更多精彩</p>
+                </div>
+            </a>  
+        </div>
+   <div class="nav-other">
+       <a href="logolist.html"><i class="icon-home"></i>返回</a>
+   </div>
+   <div class="footer-other">
+       <p>版权所有 ©南京易择信息科技有限公司&nbsp;&nbsp;&nbsp;备案：苏ICP备16005956号-1</p>
+   </div>
+   <div class="modal fade modal-img" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <img src="images/license.jpg">
+        </div>
+      </div>
+    </div>
+   <script type="text/javascript" src="js/jquery.js"></script>
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <script type="text/javascript">
+   $('.upload-img').each(function(){
+      var upimg = $(this);
+      var show = $(this).parent().next();
+      upimg.on('change', function(e){
+          var files = this.files;
+          if(files.length){
+              var file = files[0];
+              var reader = new FileReader();
+              if(!/image\/\w+/.test(file.type)){
+                  show.html("请确保文件为图像类型");
+                  return false;
+              }
+              // onload是异步操作
+              reader.onload = function(e){
+                  show.html('<img src="'+e.target.result+'" alt="img">');
+              }
+              reader.readAsDataURL(file);
+          }
+      });
+   });
+  </script>
+    </body>
+</html>

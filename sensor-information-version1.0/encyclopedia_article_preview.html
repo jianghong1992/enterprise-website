@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>百科文章预览</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script type="text/javascript" src="js/pdfobject.js"></script>
+        <script type="text/javascript">
+          window.onload = function (){
+            var myPDF = new PDFObject({
+                    url: "pdf/AngularJS.pdf" ,
+                    id: "myPDF",
+                    width: "100%",
+                    height: "900px",
+                    pdfOpenParams: {
+                        navpanes: 1,
+                        statusbar: 0,
+                        view: "FitH",
+                        pagemode: "thumbs"
+                    }
+                }).embed("pdf");
+          };
+        </script>
+        <!--[if IE 7]>
+        <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+        <![endif]-->
+        <!--[if lt IE 9]>
+          <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="container">
+            <!-- 顶部导航 -->
+            <div class="nav-bar">
+                <div class="nav-con clear">
+                    <ul class="nav-bar-left clear">
+                        <li class="menu-main"><a href="javascript:void(0)">菜单</a></li>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="sensor_mechanical_search.html">资料下载</a></li>
+                        <li class="current-nav"><a href="encyclopedia.html">传感百科</a></li>
+                        <li><a href="manufacturer_nav.html">厂商导航</a></li>
+                        <li><a href="exhibition_info.html">展会资讯</a></li>
+                        <li><a href="#">帮助</a></li>
+                    </ul>
+                    <ul class="nav-bar-right clear">
+                        <li class="register"><a href="useradd.html"><i class="icon-edit icon"></i>注册</a></li>
+                        <li class="login"><a href="login.html"><i class="icon-user-md icon"></i>登录</a></li>
+                        <!-- <li class="user-wel"><a href="#">凯瑟用户欢迎您</a></li>
+                        <li class="login-out"><a href="#"><i class="icon-user-md icon"></i>注销</a></li> -->
+                    </ul>
+                </div>
+            </div>
+            <!-- banner -->
+            <!-- <div class="banner"> -->
+                <!-- <div class="banner-img"><img src="images/banner.jpg"></div> -->
+            <!-- </div> -->
+            <!-- content -->
+            <div class="content" style="margin-top:70px;">
+                <h3 class="current-pos">当前位置：<a href="#">传感百科</a>&nbsp;<i class="icon-double-angle-right"></i>&nbsp;<a href="#" class="sub-link">文章预览</a></h3>
+                <h1 class="article-title">无线传感器网络研究进展</h1>
+                <p class="article-tips"><span>类型：力学传感器 </span><span>名字：力/称重传感器</span><span>作者：卿木宇</span><span>更新时间：2015-02-23</span></p>
+                <div class="pdf-con" id="pdf">
+                    It appears you don't have Adobe Reader or PDF support in this web browser. 
+                    <a href="pdf/AngularJS.pdf">Click here to download the PDF</a>
+                </div>
+            </div>
+            <!-- 页脚 -->
+            <div class="footer">
+                <div class="footer-con">
+                    <p>
+                        <a href="about_us.html">关于我们</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                        <a href="contact.html">联系我们</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;     
+                        <a href="contact.html">广告服务</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                        <a href="friendlinks.html">友情链接</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                        <a href="#">版权申明</a>
+                    </p>
+                    <p>版权所有 ©南京易择信息科技有限公司&nbsp;&nbsp;&nbsp;备案：xxxxxxxxxx</p>
+                </div>
+            </div>
+        </div>
+        <div class="fixed-bar"> 
+            <a href="#" class="icon-chat">微信
+                <div class="chat-tips">
+                    <i></i>
+                    <img src="images/qcode_wechat.jpg" alt="微信订阅号">
+                    <p>扫一扫，关注微信公众号</p>
+                </div>
+            </a> 
+            <a href="#" class="icon-blog">微博
+                <div class="chat-tips">
+                    <i></i>
+                    <img src="images/qcode_wechat.jpg" alt="微博">
+                    <p>扫一扫，关注微博有更多精彩</p>
+                </div>
+            </a>  
+        </div>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="js/encyclopedia.js"></script>
+    </body>
+</html>
