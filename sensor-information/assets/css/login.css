@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+/*注册成功页*/
+.register-success{width: 340px;margin: 0 auto;}
+.register-success h3{color: #FF9900;text-align: center;line-height: 36px;}
+.register-success h4{color: #fff;background: #009CFF;text-align: center;padding: 8px 0;margin: 10px 0 0;}
+.more-op{background: #FAFAFA;padding:10px 10px 16px;}
+.link-row{padding: 8px 20px;}
+.link-row span{color: #FF9900;display: inline-block;width: 160px;font-size: 13px;font-weight: 600;}
+.link-row .fa{color: #FF9900;margin-right: 25px;font-size: 18px;}

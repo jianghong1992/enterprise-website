@@ -1,0 +1,360 @@
+@charset "utf-8";
+/* CSS Document */
+/*厂商导航*/
+.manu-nav li,.widget-list li,.sensor-wiki li,.news-con li,.manu-navcon>li {
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.manu {
+	height: 480px;
+	width: 100%;
+	overflow: hidden;
+}
+.manu-left {
+	float: left;
+	width: 19%;
+	background: url('../img/ice_age.png') #f5f5f5;
+	height: 100%;
+	overflow: hidden;
+}
+.manu-navcon li a.link-more {
+	text-align: right;
+}
+.manu-right {
+	width: 79%;
+	float: right;
+	overflow: hidden;
+}
+/*banner*/
+.manu-right-top {
+	height: 300px;
+}
+.banner {
+	float: left;
+	width: 73%;
+	height: 100%;
+}
+/*用户登录*/
+.user-area {
+	width: 24.5%;
+	height: 100%;
+	float: right;
+	position: relative;
+}
+.user-area .widget {
+	height: 80%;
+}
+.user-area .widget-list {
+	padding-top: 80px;
+}
+.user-area .widget-list span,.user-area .widget-list a {
+	display: block;
+	line-height: 28px;
+	text-align: center;
+}
+.user-area .widget-list a {
+	color: #236785;
+}
+.btn-area {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+.btn-area .btn-link {
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	line-height: 36px;
+	float: left;
+	border-radius: 3px;
+}
+.btn-area .btn-sign {
+	width: 50%;
+	background: #ff9900;
+}
+.btn-area .btn-login {
+	width: 50%;
+	background: #4da9d2;
+}
+.btn-area .btn-join {
+	width: 100%;
+	background: #4da9d2;
+}
+
+/*厂商新闻&产品认证活动*/
+.manu-right-btm {
+	height: 160px;
+	margin-top: 20px;
+}
+.manu-right-btm .widget {
+	height: 100%;
+}
+.manu-news li{
+	margin: 0 2%;
+	padding: 7px 0 7px 10px;
+	width: 46%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	float: left;
+	border-bottom: 1px dotted #EEEEEE;
+	position: relative;
+}
+.manu-news li:before ,.sensor-wiki ol li:before,.news-con ol li:before{
+	content: '';
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	background: #666;
+	border-radius: 50%;
+	top: 50%;
+	margin-top: -2px;
+	left: 0;
+}
+.manu-right-btm .widget-list {
+	padding-top: 60px;
+}
+.manu-news li a{
+	width: 260px;
+}
+.sensor-wiki ol li a {
+	width: 228px;
+}
+.news-con ol li a {
+	width: 324px;
+}
+.manu-news li a,.sensor-wiki ol li a,.news-con ol li a{
+	float: left;
+	width: calc(100% - 94px);
+	display: block;
+	overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.manu-news li span,.sensor-wiki ol li span ,.news-con ol li span{
+	width: 80px;
+	float: right;
+	color: #999;
+	display: block;
+}
+.product-id {
+	line-height: 30px;
+}
+.product-id span{
+	color: #FF9900;
+	padding-left: 3%;
+}
+.btn-activity {
+	display: inline-block;
+	line-height: 36px;
+	padding: 0 15px;
+	color: #fff;
+	background: #FF9900;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	border-radius: 3px;
+}
+
+/*最新入驻厂家*/
+.newest-manu {
+	margin-top: 20px;
+	background: #F5F5F5;
+	overflow: hidden;
+}
+
+/*产品区域*/
+.product-area {
+	margin-top: 20px;
+	height: 432px;
+	overflow: hidden;
+}
+.pro-search {
+	width: 190px;
+	background: url('../img/ice_age.png') #F5F5F5;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+.multi-menu ul.nav1 li.morepro {
+	text-align: right;
+	padding-right: 20px;
+	border-bottom: none;
+}
+.multi-menu ul.nav1 li.morepro a,
+.multi-menu ul.nav1 li.morepro a+.fa {
+	color: #ff9900;
+	font-size: 14px;
+}
+.multi-menu ul li.morepro:before {
+	background: transparent;
+}
+.multi-menu ul.nav1 li.morepro:hover a,
+.multi-menu ul.nav1 li.morepro:hover a+.icon {
+	color: #fff;
+}
+.multi-menu ul li.morepro:hover:before {
+	background: transparent;
+}
+.newest-pro {
+	width: 42%;
+	height: 100%;
+	background: #F5F5F5;
+	float: left;
+	margin: 0 2%;
+	overflow: hidden;
+}
+.newest-pro table {
+	width: 100%;
+	line-height: 39px;
+}
+.newest-pro table .trlast {
+	height: 42px;
+}
+.newest-pro table tr:nth-child(even){
+	background: #ebebf2;
+}
+.newest-pro table td {
+	padding: 0 6px 0 16px;
+}
+.newest-pro table td a .icon{
+	color: #009CFF;
+	font-size: 16px;
+}
+.newest-pro table tr:hover{
+	background: #d3d5e6;
+}
+.sensor-wiki {
+	width: 35%;
+	height: 100%;
+	background: #F5F5F5;
+	float: left;
+	overflow: hidden;
+}
+.sensor-wiki ol li,.news-con ol li{
+	margin: 0 1% 0 4%;
+	padding-left: 10px;
+	line-height: 38px;
+	width: 95%;
+	-moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box; 
+    -o-box-sizing: border-box; 
+    -ms-box-sizing: border-box; 
+    box-sizing: border-box;
+	float: left;
+	border-bottom: 1px dotted #e4e4e4;
+	position: relative;
+}
+
+/*长条广告*/
+.ad-long {
+	width: 100%;
+	height: 100px;
+	margin: 20px 0;
+}
+.ad-long img ,.sider-ad .ad-img img{
+	width: 100%;
+	max-width: 100%;
+}
+
+/*资讯广告区域*/
+.news-ad {
+	height: 300px;
+}
+.notes {
+	width: 22%;
+	background: #F5F5F5;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+.notes h4{
+	color: #236785;
+	padding-bottom: 8px;
+}
+.notes a {
+	display: inline-block;
+	line-height: 32px;
+	padding: 0 14px;
+	margin: 16px 0 0 40px;
+	background: #FF9900;
+	color: #fff;
+	border-radius: 3px;
+	text-shadow: none;
+}
+.news-con {
+	width: 52%;
+	background: #F5F5F5;
+	float: left;
+	margin: 0 2%;
+	height: 100%;
+	overflow: hidden;
+}
+.news-con ol li {
+	line-height: 42px;
+}
+.news-con ol li a {
+	width: calc(100% - 156px);
+}
+.news-con ol li span{
+	width: 140px;
+}
+.sider-ad {
+	width: 22%;
+	height: 100%;
+	float: left;
+}
+.sider-ad .ad-img {
+	height: 94px;
+	margin-bottom: 9px;
+}
+.sider-ad .ad-img:last-child{
+	margin-bottom: 0;
+}
+
+/*友情链接*/
+.friendlinks {
+	background: #F5F5F5;
+	margin: 20px 0;
+	overflow: hidden;
+}
+.friendlinks .title2 {
+	background: none;
+	padding-left: 20px;
+}
+.friendlinks .title2 .icon{
+	font-size: 20px;
+	margin-right: 4px;
+}
+.friendlinks-con {
+	padding: 8px 20px;
+	line-height: 24px;
+}
+.friendlinks-con:first-of-type {
+	padding-top: 16px;
+}
+.friendlinks-con span {
+	display: inline-block;
+	padding: 0 10px;
+	background: #3789ae;
+	color: #fff;
+}
+.friendlinks-con a {
+	display: inline-block;
+	padding: 0 6px;
+}
+.apply-link {
+	padding: 6px 20px 12px;
+	text-align: right;
+}
+.apply-link a {
+	color: #FF9900;
+	font-weight: 600;
+}
+.sider-ad .ad-img img{
+	margin: 0;
+}

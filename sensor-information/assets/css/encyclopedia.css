@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.ency-l{width: 19%;}
+.ency-nav{background: url('../img/ice_age.png') #f5f5f5;}
+.ency-nav .manu-navcon .current-nav-ency,.ency-nav .manu-navcon li:hover{background: #34A7DA;}
+.ency-nav .manu-navcon .current-nav-ency a,.ency-nav .manu-navcon li:hover a{color: #fff;}
+.ency-r{width: 79%;}
+.ency-show{width: 70%;float: left;background: #fafafa;}
+.ency-search-area{padding: 0 0 0 10px;}
+.search-sub {width: 250px;height: 36px;float: left;}
+.ency-search-area .hot-keyword{float: left;margin-left: 20px;}
+.search-sub input {float:left;font-family: "微软雅黑";}
+.search-sub .search-input{border: 1px solid #ddd;line-height: 30px;padding: 0 10px;width: 168px;border-right: none;}
+.search-sub .search-btn{border: none;line-height: 32px;height: 32px;color: #fff;background: #34A7DA;width: 80px;cursor: pointer;}
+.ency-show.table-con table td{line-height: 26px;}
+.ency-show.table-con table td a{color: #0879ab;}
+.ency-search-area{margin-top: 10px;}
+.ency-search-sider{width: 27.5%;float: right;}
+.ency-search-sider .sider-title{text-align: left;padding-left: 20px;}
+.notes{width: 100%;}
+.notes h4{color: #236785;padding-bottom: 8px;}
+.notes a {display: inline-block;line-height: 32px;padding: 0 14px;margin: 16px 0 0 40px;background: #FF9900;color: #fff;border-radius: 3px;text-shadow: none;}
+
+/*百科详情*/
+.ency-detail-l{width: 76%;}
+.ency-detail-r{width: 22%;}
+.base-info {background: #fafafa;width: 100%;float: left;}
+.detail-header .header-con .yz{color: #009CFF;text-decoration: underline;}
+.detail-header .header-con .download{display: inline-block;padding: 3px 8px;color: #fff;background: #009CFF;border-radius: 3px;}
+.base-info-con{padding: 20px;border-top: 1px solid #ddd;}
+.base-info-con p{font-size: 13px;text-indent: 26px;padding: 10px;line-height: 1.6;}
+.base-info-con img{max-width: 80%;margin: 10px auto;}
+.newest-article{width: 40%;float: left;margin:20px 2% 20px 0;background: #fafafa;height: 238px;overflow: hidden;}
+.more-share {width: 58%;float: left;background: #fafafa;margin-top: 20px;height: 238px;overflow: hidden;}
+.more-share img{float: left;width: 40%;}
+.more-share p{float: right;width: 50%;padding: 20px 2%;line-height: 1.8;font-family: "黑体","微软雅黑";font-size: 13px;}
+.declare{width: 100%;float: left;background: #fafafa;}
+.declare-con {padding: 10px 20px;}
+.declare-con p{padding: 6px 0;line-height: 1.6;font-family: "黑体","微软雅黑";}
+

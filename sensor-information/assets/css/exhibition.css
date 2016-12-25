@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+.exhi-l{width: 76%;background: #fafafa;}
+.exhi-l.table-con table{margin-top: 0;}
+.exhi-l.table-con table td{line-height: 26px;}
+.exhi-l.table-con table td a{color: #0879ab;}
+.exhi-l.table-con table .thead-row{background: #c7c7c7;}
+.exhi-r{width: 22%;}
+.newest-exhi.sider-area ul li:before{top: 14px;margin-top: 0;}
+.release-exhi {border-radius:4px;display: block;line-height: 44px;color: #fff;text-align: center;background: #04C38E;font-size: 16px;margin-bottom: 10px;}
+.release-exhi .fa{font-size: 18px;margin-left: 4px;}
+
+/*展会详情页*/
+.exhi-detail-l{width: 76%;}
+.detail-header{background: #fafafa;}
+.base-info{margin-top: 20px;background: #fafafa;}
+.info-area {background: #fafafa;margin-top: 30px;padding: 30px 0 0;line-height: 1.7;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.06) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#CCCCCC,direction=180,strength=6)";/*Internet Explorer 8 */
+    *filter: progid:DXImageTransform.Microsoft.Shadow(color=#CCCCCC, direction=180,strength=6); /*低于Internet Explorer 版本8*/
+    position: relative;
+    *zoom: 1;}
+.info-area table{width: 100%;font-size: 13px;}
+.info-area table tr{border: 1px solid #ddd;}
+.info-area table td{padding: 6px 12px;}
+.info-area table .summ{width: 140px;text-align: center;background: #D3D5E6;font-weight:600;border-bottom: 1px solid #ccc;font-size: 14px;}
+.exhi-base-info{padding: 0 20px 10px;border-top: 1px solid #ddd;}
+.exhi-base-info p{text-indent: 24px;line-height: 1.7;padding: 10px 0;}
+.exhi-base-info img{max-width: 80%;margin: 10px auto;}
+.more-share-con{padding: 10px 20px 10px;border-top: 1px solid #ddd;}
+.more-share img{float: left;width: 18%;}
+.more-share p{float: right;width: 70%;padding: 20px 4%;line-height: 1.8;font-family: "黑体","微软雅黑";font-size: 13px;}
+
+
+
+
+
+
+
+
+
+
