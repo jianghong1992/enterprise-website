@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+.banner{
+	width:100%;
+	overflow:hidden;
+	}
+.banner img{
+	width:100%;
+	}
+.main_container{
+	margin:0 auto;
+	width:980px;
+	}
+.title h1{
+	font-family:arial;
+	font-size:40px;
+	color:#333;
+	line-height:80px;
+	}
+.title span{
+	font-family:"微软雅黑", "宋体";
+	font-size:14px;
+	color:#4c4c4c;
+	background:url(../images/title_bg.png) repeat-x center bottom;
+	padding-bottom:2px;
+	}
+.main{
+	overflow:hidden;
+	}
+.main_left{
+	float:left;
+	}
+.main_left p{
+	width:580px;
+	color:#4c4c4c;
+	line-height:24px;
+	margin-bottom:30px;
+	text-indent:24px;
+	}
+.main_right img{
+	float:left;
+	}
+.main_right{
+	width:360px;
+	float:right;
+	}
+/*优势*/
+.advantage_container{
+	width:980px;
+	margin:0 auto;
+	}
+.advantage_container h1{
+	color:#006938;
+	font-family:"微软雅黑", "宋体";
+	font-size:16px;
+	line-height:40px;
+	background-color:#f7f7f7;
+	border-top:#ccc solid 1px;
+	width:980px;
+	}
+.advantage_con{
+	overflow:hidden;
+	margin:20px 0 40px;
+	}
+.advantage_con dl{
+	width:120px;
+	height:60px;
+	text-align:center;
+	background:url(../images/about_us_center.png) no-repeat;
+	float:left;
+	color:#4c4c4c;
+	line-height:20px;
+	padding:60px 20px 64px;
+	}
+.advantage_con dt{
+	font-size:14px;
+	font-weight:bold;
+	}
+.advantage_con .first{
+	background:url(../images/about_us_left.png) no-repeat;
+	width:128px;
+	}
+.advantage_con .last{
+	background:url(../images/about_us_right.png) no-repeat;
+	width:128px;
+	}
