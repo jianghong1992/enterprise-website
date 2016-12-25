@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+.main_container{
+	width:1000px;
+	margin:0 auto;
+	}
+.news_container{
+	overflow:hidden;
+	}
+.news_left,.news_right{
+	margin-left:10px;
+	float:left;
+	margin-top:10px;
+	}
+.news_left{
+	width:260px;
+	height:800px;
+	background-color:#efeeeb;
+	padding-left:10px;
+	
+	}
+.news_left p{
+	color:#ec2992;
+	font-size:14px;
+	line-height:40px;
+	margin-bottom:10px;
+	}
+.news_left li{
+	width:240px;
+	background:url(../images/xuxian.png) repeat-x bottom center;
+	}
+.news_left a{
+	line-height:28px;
+	color:#808080;
+	margin-left:10px;
+	}
+.news_left .currentA{
+	color:#4c4c4c;
+	}
+.news_right{
+	width:680px;
+	padding-left:20px;
+	padding-top:20px;
+	}
+.news_right p{
+	color:#808080;
+	line-height:22px;
+	text-indent:24px;
+	margin-top:15px;
+	}
+.news_right h2{
+	text-align:center;
+	font-size:18px;
+	color:#999999;
+	}

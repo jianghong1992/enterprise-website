@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.main_container{
+	width:1000px;
+	margin:0 auto;
+	}
+.plan_container{
+	overflow:hidden;
+	}
+.plan_left,.plan_center,.plan_right{
+	width:320px;
+	margin-left:10px;
+	float:left;
+	}
+.plan_left .text_con{
+	width:320px;
+	height:410px;
+	margin-top:10px;
+	}
+.photo{
+	margin-top:10px;
+	border:solid #FFF 10px;
+	}
+.plan_left #text_con_1{
+	height:210px;
+	}
+#text_con_2{
+	height:130px;
+	width:320px;
+	margin-top:10px;
+	background-color:#FFF;
+	padding-top:20px;
+	}
+#text_con_2 p{
+	color:#808080;
+	line-height:22px;
+	padding:0 16px;
+	text-indent:24px;
+	}

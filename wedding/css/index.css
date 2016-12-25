@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+/*banner*/
+.banner img{
+	width:100%;
+	}
+.banner{
+	position:relative;
+	}
+.float_container{
+	width:100%;
+	height:30px;
+	background:url(../images/float_bg.png) repeat-x;
+	position:absolute;
+	bottom:0;
+	}
+.float_con{
+	width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+	}
+.float_con p{
+	color:#f2f2f2;
+	font-size:14px;
+	font-family:"微软雅黑", "宋体";
+	line-height:30px;
+	float:left;
+	}
+.ctrl{
+	float:right;
+	margin-top:7px;
+	}
+.ctrl a{
+	display:block;
+	width:16px;
+	line-height:16px;
+	background-color:#ff59a4;
+	color:#f2f2f2;
+	text-align:center;
+	float:left;
+	margin-right:5px;
+	}
+.ctrl .current_btn{
+	background-color:#bc358e;
+	}
+/*主体信息部分*/
+.main_container{
+	width:1000px;
+	margin:0 auto;
+	margin-top:20px;
+	overflow:hidden;
+	}
+/*精彩案例*/
+.case_container{
+	float:left;
+	position:relative;
+	margin-right:20px;
+	width:320px;
+	height:620px;
+	}
+.text{
+	position:absolute;
+	left:20px;
+	top:20px;
+	}
+.text h1{
+	font-size:28px;
+	font-family:"微软雅黑", "宋体";
+	color:#f2f2f2;
+	}
+.text h2{
+	font-size:20px;
+	font-family:"Arial Rounded MT Bold","Arial";
+	color:#d9d9d9;
+	margin-top:5px;
+	}
+.text h3{
+	font-size:14px;
+	font-family:Arial;
+	color:#f2f2f2;
+	margin-top:5px;
+	}
+.more{
+	display:block;
+	width:100px;
+	line-height:30px;
+	text-align:center;
+	color:#f2f2f2;
+	font-size:18px;
+	font-family:"微软雅黑", "宋体";
+	background:url(../images/index_btn.png);
+	position:absolute;
+	left:50%;
+	margin-left:-50px;
+	bottom:30px;
+	}
+.right_con{
+	float:left;
+	width:660px;
+	}
+/*关于米兰*/
+.about_milan,.contact_us,.news,.dress{
+	float:left;
+	position:relative;
+	width:320px;
+	height:300px;
+	}
+.contact_us .text{
+	text-align:right;
+	left:30px;
+	}
+.contact_us,.dress{
+	margin-left:20px;
+	}
+.dress,.news{
+	margin-top:20px;
+	}
+.dress h1{
+	color:#ff94af;
+	}
+.dress h2{
+	color:#ffa8ae;
+	}
+.dress h3{
+	color:#ff9bb4;
+	}
+.news{
+	background:#FFF;
+	}
+.news p{
+	color:#4c4c4c;
+	font-family:"宋体";
+	font-size:14px;
+	line-height:30px;
+	padding:16px 0 0 20px;
+	}
+
+.news li{
+	list-style:disc;
+	width:260px;
+	background:url(../images/index_news_bg.png) repeat-x center bottom;
+	line-height:22px;
+	padding-top:6px;
+	color:#999999;
+	margin-left:30px;
+	}
+.news a{
+	color:#ed1999;
+	display:block;
+	width:290px;
+	text-align:right;
+	margin-top:20px;
+	}
+.business,.baike{
+	float:left;
+	position:relative;
+	width:490px;
+	height:300px;
+	margin-top:20px;
+	}
+.baike{
+	margin-left:20px;
+	}
+/*主题*/
+.theme_container{
+	width:1000px;
+	height:300px;
+	background:url(../images/index_theme_bg.png) repeat-x;
+	margin-top:20px;
+	position:relative;
+	float:left;
+	}
+.theme_container h1{
+	font-size:24px;
+	font-family:"微软雅黑", "宋体";
+	color:#c0187e;
+	width:990px;
+	padding:10px 0 5px 10px;
+	border-bottom:solid #d9198d 1px;
+	}
+.theme_container h1 span{
+	font-size:12px;
+	font-family:Arial;
+	color:#ed1999;
+	margin-left:10px;
+	}
+.theme{
+	margin-top:15px;
+	width:890px;
+	margin-left:55px;
+	overflow:hidden;
+	}
+.theme_con{
+	margin-right:30px;
+	float:left;
+	}
+.theme_con img{
+	border:solid #FFF 5px;
+	}
+.theme_con a{
+	display:block;
+	width:200px;
+	line-height:30px;
+	text-align:center;
+	color:#ed1999;	
+	}
+.theme_con a:hover{
+	color:#6cc4f0;
+	}
+/*.theme_container .left_btn,.theme_container .right_btn{
+	display:block;
+	width:15px;
+	height:22px;
+	position:absolute;
+	top:50%;
+	}
+.theme_container .left_btn{
+	background:url(../images/index_left_btn.png);
+	left:20px;
+	}
+.theme_container .right_btn{
+	background:url(../images/index_right_btn.png);
+	right:20px;
+	}
+*/

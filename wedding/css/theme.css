@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.main_container{
+	width:1000px;
+	margin:0 auto;
+	}
+.theme_container{
+	overflow:hidden;
+	}
+.theme_detail{
+	float:left;
+	margin:10px 0 0 10px;
+	}
+.theme_detail img{
+	border:solid #FFF 10px;
+	}
+.theme_text{
+	display:block;
+	width:310px;
+	padding-left:10px;
+	padding-bottom:10px;
+	background-color:#FFF;
+	}
+.theme_text h1{
+	font-size:16px;
+	font-family:"微软雅黑", "宋体";
+	color:#ec2992;
+	}
+.theme_text p{
+	color:#999;
+	line-height:24px;
+	}

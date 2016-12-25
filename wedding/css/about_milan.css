@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+.main_container{
+	width:1000px;
+	margin:0 auto;
+	}
+/*致新人的一封信*/
+.mailer{
+	overflow:hidden;
+	margin-top:10px;
+	padding-left:10px;
+	}
+.mailer .text_con{
+	width:320px;
+	height:410px;
+	float:left;
+	}
+.mailer_right{
+	float:left;
+	width:660px;
+	overflow:hidden;
+	margin-left:10px;
+	}
+.mailer_right img{
+	float:left;
+	border:solid #FFF 10px;
+	width:300px;
+	}
+.mailer_right .odd{
+	margin-left:10px;
+	}
+.mailer_right .xia_margin{
+	margin-top:10px;
+	}
+/*我们能为您带来什么*/
+.function,.team{
+	overflow:hidden;
+	margin-top:10px;
+	padding-left:10px;
+	}
+.function_left,.team_right{
+	float:left;
+	width:660px;
+	}
+.function_1,.team_1,.team_left{
+	float:left;
+	}
+.function_1 img,.function_2 img,.function_right img,.team_1 img,.team_2 img,.team_left img{
+	border-top:solid #FFF 10px;
+	border-left:solid #FFF 10px;
+	border-right:solid #FFF 10px;
+	}
+.function_1 span,.function_2 span,.function_right span,.team_1 span,.team_2 span,.team_left span{
+	width:320px;
+	display:block;
+	line-height:40px;
+	height:40px;
+	text-align:center;
+	color:#808080;
+	background-color:#FFF;
+	}
+.function .text_con,.team .text_con{
+	width:320px;
+	height:310px;
+	float:left;
+	margin-left:10px;
+	}
+.function_2,.team_2{
+	float:left;
+	margin-top:10px;
+	}
+.last_function{
+	margin-left:10px;
+	}
+.function_right,.team_right{
+	float:left;
+	margin-left:10px;
+	}
+/*我们的优势*/
+.text_con .sub_title{
+	color:#ec2992;
+	}
+.text_con p span{
+	font-weight:bold;
+	}
+.advantage .text_con{
+	margin-top:10px;
+	height:400px;
+	width:980px;
+	margin-left:10px;
+	}
+/*我们的联系方式*/
+.phone .text_con{
+	margin-top:10px;
+	height:200px;
+	width:980px;
+	margin-left:10px;
+	}
