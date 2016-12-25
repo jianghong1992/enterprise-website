@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+.contact_us{
+	float:left;
+	width:760px;
+	height:500px;
+	background-color:#FFF;
+	margin-top:20px;
+	line-height:24px;
+	}
+.contact_us dl{
+	width:740px;
+	margin-left:10px;
+	padding-top:10px;
+	}
+.right_container dt{
+	background:url(../images/arrow.png) no-repeat left center;
+	border-bottom:solid 1px #cccccc;
+	padding-left:20px;
+	line-height:24px;
+	font-size:14px;
+	margin-bottom:15px;
+	}
+.contact_us p{
+	padding-left: 40px;
+	}

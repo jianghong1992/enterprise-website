@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+/*产品展示*/
+.product_show{
+	float:left;
+	width:760px;
+	height:500px;
+	background-color:#FFF;
+	margin-top:20px;
+	line-height:24px;
+	}
+.product_show dl{
+	width:740px;
+	margin-left:10px;
+	padding-top:10px;
+	}
+.right_container dt{
+	background:url(../images/arrow.png) no-repeat left center;
+	border-bottom:solid 1px #cccccc;
+	padding-left:20px;
+	line-height:24px;
+	font-size:14px;
+	margin-bottom:15px;
+	}
+.product{
+	width:238px;
+	height:128px;
+	float:left;
+	border:solid 1px #ccc;
+	margin:10px 0 10px 10px ;
+	position:relative;
+	}
+.product div{
+	width:238px;
+	height:20px;
+	background-image:url(../images/index_bg.png);
+	position:absolute;
+	left:center;
+	bottom:1px
+	}
+.product span{
+	float:right;
+	padding-right:10px;
+	line-height:20px;
+	}
+.page_con{
+	float:left;
+	}

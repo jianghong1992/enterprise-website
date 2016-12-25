@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+/*公司简介*/
+.introduction{
+	float:left;
+	width:760px;
+	height:300px;
+	background-color:#FFF;
+	margin-top:20px;
+	}
+.introduction dl,.product_show dl{
+	width:740px;
+	margin-left:10px;
+	}
+.news dl,.industry_info dl{
+	width:350px;
+	margin-left:10px;
+	}
+.right_container dt{
+	background:url(../images/arrow.png) no-repeat left center;
+	border-bottom:solid 1px #cccccc;
+	padding-left:20px;
+	line-height:26px;
+	font-size:14px;
+	margin-bottom:15px;
+	}
+.introduction_con img{
+	width:140px;
+	height:240px;
+	float:left;
+	margin:5px 30px 0px 30px;
+	}
+.introduction_con p{
+	width:520px;
+	float:left;
+	text-indent:24px;
+	line-height:24px;
+	margin-left:10px;
+	}
+/*企业新闻*/
+.news,.industry_info{
+	width:370px;
+	height:200px;
+	float:left;
+	background-color:#FFF;
+	margin-top:20px;
+	position:relative;
+	}
+.news ul,.industry_info ul{
+	width:320px;
+	line-height:24px;
+	margin-left:35px;
+	}
+.news a,.industry_info a{
+	flaot:left;
+	}
+.news span,.industry_info span{
+	float:right;
+	}
+/*行业资讯*/
+.industry_info{
+	margin-left:20px;
+	}
+/*产品展示*/
+.product_show{
+	width:760px;
+	height:220px;
+	float:left;
+	background-color:#FFF;
+	margin-top:20px;
+	position:relative;
+	}
+.product{
+	width:238px;
+	height:128px;
+	float:left;
+	border:solid 1px #ccc;
+	margin:10px 0 10px 10px ;
+	position:relative;
+	}
+.product div{
+	width:238px;
+	height:20px;
+	background-image:url(../images/index_bg.png);
+	position:absolute;
+	left:center;
+	bottom:1px
+	}
+.product span{
+	float:right;
+	padding-right:10px;
+	line-height:20px;
+	}

@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+.news{
+	float:left;
+	width:760px;
+	height:500px;
+	background-color:#FFF;
+	margin-top:20px;
+	line-height:24px;
+	}
+.news dl{
+	width:740px;
+	margin-left:10px;
+	padding-top:10px;
+	}
+.right_container dt{
+	background:url(../images/arrow.png) no-repeat left center;
+	border-bottom:solid 1px #cccccc;
+	padding-left:20px;
+	line-height:24px;
+	font-size:14px;
+	margin-bottom:15px;
+	}
+.news ul{
+	width:700px;
+	line-height:36px;
+	margin-left:35px;
+	}
+.news li{
+	background:url(../images/xuxian_1.png) repeat-x center bottom;
+	}
+.news a{
+	flaot:left;
+	}
+.news ul span{
+	float:right;
+	}

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+.introduction{
+	float:left;
+	width:760px;
+	height:500px;
+	background-color:#FFF;
+	margin-top:20px;
+	line-height:24px;
+	}
+.introduction dl{
+	width:740px;
+	margin-left:10px;
+	padding-top:10px;
+	}
+.right_container dt{
+	background:url(../images/arrow.png) no-repeat left center;
+	border-bottom:solid 1px #cccccc;
+	padding-left:20px;
+	line-height:24px;
+	font-size:14px;
+	margin-bottom:15px;
+	}
+.introduction_con img{
+	float:left;
+	margin:5px 30px 0px 10px;
+	}
+.introduction_con{
+	padding:10px 20px;
+	}

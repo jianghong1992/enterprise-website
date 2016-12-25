@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.product_order{
+	float:left;
+	width:760px;
+	height:500px;
+	background-color:#FFF;
+	margin-top:20px;
+	line-height:24px;
+	}
+.product_order dl{
+	width:740px;
+	margin-left:10px;
+	padding-top:10px;
+	}
+.right_container dt{
+	background:url(../images/arrow.png) no-repeat left center;
+	border-bottom:solid 1px #cccccc;
+	padding-left:20px;
+	line-height:24px;
+	font-size:14px;
+	margin-bottom:15px;
+	}
+.order input{
+	border:solid 1px #ddd;
+	width:420px;
+	height:20px;
+	background-color:#fbfbfb;
+	}
+.order{
+	margin:20px 0 0 80px;
+	}
+.order span{
+	display:block;
+	height:5px;
+	width:6px;
+	background-image:url(../images/xing.png);
+	}
